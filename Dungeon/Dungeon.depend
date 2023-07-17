@@ -1,0 +1,140 @@
+# depslib dependency file v1.0
+1681393434 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\main.cpp
+	"Object.h"
+	"Dungeon.h"
+	"Home.h"
+	<iostream>
+
+1681316544 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\object.cpp
+	"Object.h"
+
+1681316516 z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\object.h
+	<iostream>
+	<string>
+
+1681316004 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\gamecharacter.cpp
+	"GameCharacter.h"
+
+1681315566 z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\gamecharacter.h
+	"Object.h"
+	<iostream>
+	<string>
+
+1681316804 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\room.cpp
+	"Room.h"
+
+1681316294 z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\room.h
+	"Object.h"
+
+1681390272 z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\dungeon.h
+	<iostream>
+	<string>
+	<vector>
+	<exception>
+	<cstdio>
+	<cstdlib>
+	"Player.h"
+	"Monster.h"
+	"NPC.h"
+	"Home.h"
+	"Room.h"
+	"Factory.h"
+	<stdlib.h>
+	<stdio.h>
+
+1681394174 z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\player.h
+	"GameCharacter.h"
+	"Room.h"
+	"Factory.h"
+	<cstdlib>
+	<iostream>
+	<time.h>
+	<vector>
+
+1681448462 z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\npc.h
+	"Object.h"
+	"Player.h"
+	<iostream>
+	<string>
+
+1681448460 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\npc.cpp
+	"NPC.h"
+
+1681391460 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\player.cpp
+	"Player.h"
+	"Room.h"
+
+1681448456 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\dungeon.cpp
+	"Dungeon.h"
+	"Home.h"
+
+1681325918 z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\home.h
+	"Room.h"
+	"Factory.h"
+	"Player.h"
+	<iostream>
+
+1681053258 z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\copperroom.h
+	"Room.h"
+
+1681053288 z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\treeroom.h
+	"Room.h"
+
+1681053266 z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\ladderroom.h
+	"Room.h"
+
+1681053260 z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\moneyroom.h
+	"Room.h"
+
+1681052820 z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\npcroom.h
+
+1681056038 z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\monsterroom.h
+
+1681052460 z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\bossroom.h
+
+1681052960 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\bossroom.cpp
+	"BossRoom.h"
+
+1681052854 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\copperroom.cpp
+	"CopperRoom.h"
+
+1681052924 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\ladderroom.cpp
+	"LadderRoom.h"
+
+1681052910 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\moneyroom.cpp
+	"MoneyRoom.h"
+
+1681052944 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\monsterroom.cpp
+	"MonsterRoom.h"
+
+1681052976 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\npcroom.cpp
+	"NPCRoom.h"
+
+1681052888 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\treeroom.cpp
+	"TreeRoom.h"
+
+1681392712 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\home.cpp
+	"Home.h"
+
+1681349950 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\factory.cpp
+	"Factory.h"
+
+1681381962 z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\factory.h
+	"Object.h"
+	<stdlib.h>
+	<cstdio>
+	<iostream>
+
+1681386918 z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\monster.h
+	"GameCharacter.h"
+	<iostream>
+
+1681388288 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\monster.cpp
+	"Monster.h"
+
+1681297664 source:z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\costume.cpp
+	"costume.h"
+
+1681297594 z:\life_in_nycu\111_2\ds&oop\dungeon\dungeon_111550073\dungeon\costume.h
+	"Object.h"
+
