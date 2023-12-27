@@ -62,7 +62,7 @@ void Dungeon::createMap(){
     $-. M-C-B
     */
     FILE* f;
-    f = fopen("map.txt","r");
+    f = fopen("src/map.txt","r");
     for(int i=0;i<25;i++){
         int u, d, l, r;
         char state;
