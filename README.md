@@ -42,6 +42,51 @@ To clean build files:
 make clean
 ```
 
+## Project Structure
+
+```
+Dungeon/
+├── src/                      # Source code files
+│   ├── main.cpp              # Program entry point (24 lines)
+│   ├── Dungeon.cpp           # Main game engine and logic (796 lines)
+│   ├── Dungeon.h             # Game engine class definition (89 lines)
+│   ├── Player.cpp            # Player character implementation (153 lines)
+│   ├── Player.h              # Player class definition (52 lines)
+│   ├── GameCharacter.cpp     # Base class for all characters (54 lines)
+│   ├── GameCharacter.h       # Character base class definition (30 lines)
+│   ├── Monster.cpp           # Enemy implementation (17 lines)
+│   ├── Monster.h             # Monster class definition (17 lines)
+│   ├── NPC.cpp               # Non-player character interactions (61 lines)
+│   ├── NPC.h                 # NPC class definition (25 lines)
+│   ├── Room.cpp              # Room system and navigation (20 lines)
+│   ├── Room.h                # Room class definition (20 lines)
+│   ├── Home.cpp              # Home base implementation (144 lines)
+│   ├── Home.h                # Home class definition (24 lines)
+│   ├── Factory.cpp           # Resource and upgrade management (122 lines)
+│   ├── Factory.h             # Factory system class definition (36 lines)
+│   ├── Object.cpp            # Game object base implementation (40 lines)
+│   ├── Object.h              # Object base class definition (26 lines)
+│   └── map.txt               # Map layout configuration file (25 lines)
+│
+├── obj/                      # Object files generated during compilation
+│   ├── main.o                # Compiled main.cpp
+│   ├── Dungeon.o             # Compiled Dungeon.cpp
+│   ├── Player.o              # Compiled Player.cpp
+│   ├── GameCharacter.o       # Compiled GameCharacter.cpp
+│   ├── Monster.o             # Compiled Monster.cpp
+│   ├── NPC.o                 # Compiled NPC.cpp
+│   ├── Room.o                # Compiled Room.cpp
+│   ├── Home.o                # Compiled Home.cpp
+│   ├── Factory.o             # Compiled Factory.cpp
+│   └── Object.o              # Compiled Object.cpp
+│
+├── png/                      # Screenshots and game images for documentation
+│
+├── Makefile                  # Build configuration for compiling the game
+├── dungeon.exe               # Executable game file
+└── README.md                 # Project documentation
+```
+
 ## Game Structure
 
 ### Core Components
