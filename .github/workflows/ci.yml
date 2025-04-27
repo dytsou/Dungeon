@@ -1,0 +1,28 @@
+name: C++ CI 
+
+on:  
+  push:  
+    branches: [ main, master ]  
+  pull_request:  
+    branches: [ main, master ]  
+
+jobs:  
+  build:  
+    runs-on: ubuntu-latest  
+
+    steps:  
+    - uses: actions/checkout@v3  
+
+    - name: Install dependencies  
+      run: |  
+        sudo apt-get update  
+        sudo apt-get install -y g++ make  
+
+    - name: Build  
+      run: make  
+
+    - name: Archive production artifacts  
+      uses: actions/upload-artifact@v4
+      with:  
+        name: dungeon-executable  
+        path: dungeon
